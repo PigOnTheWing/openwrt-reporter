@@ -1,0 +1,5 @@
+config reporter_t reporter
+  option period '0'
+  option enabled '0'
+  option host 'localhost'
+  option topic 'reporter/state'
