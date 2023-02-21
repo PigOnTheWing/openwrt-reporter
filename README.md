@@ -10,6 +10,8 @@ Openwrt-reporter - приложение, работающее в среде open
 * **docker** - содержит небольшой Dockerfile для быстрой проверки приложения
 
 ## Установка
+Для экономии времени можно взять готовый пакет из [списка релизов](https://github.com/PigOnTheWing/openwrt-reporter/releases/tag/v1.0) и воспользоваться [докером](#docker)
+
 Для установки приложения скопируйте Makefile из **pkg** в репозиторий openwrt:
 ```
 $ mkdir <OPENWRT_SRC>/custom <OPENWRT_SRC>/custom/reporter
