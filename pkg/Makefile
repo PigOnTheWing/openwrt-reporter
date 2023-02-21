@@ -8,7 +8,7 @@ PKG_RELEASE:=1
 
 # Source settings (i.e. where to find the source codes)
 # This is a custom variable, used below
-SOURCE_DIR:=/home/smol/opnwrt_task
+SOURCE_DIR:=/your/src/dir
 
 include $(INCLUDE_DIR)/package.mk
 
